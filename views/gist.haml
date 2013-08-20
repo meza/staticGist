@@ -13,5 +13,10 @@
         %param{name:"bgcolor", value:"#000"}
         %embed{src:"/flash/clippy.swf",width:"110",height:"14",name:"clippy",quality:"high",allowScriptAccess:"always",type:"application/x-shockwave-flash",pluginspage:"http://www.macromedia.com/go/getflashplayer",FlashVars:"text="+gist,bgcolor:"#000"}
     %div
+      %form{action:"/gist",method:"get"}
+        %label{for:"gistUrl"} the url of the gist
+        %input{type:"text",name:"gistUrl",id:"gistUrl"}
+        %input{type:"submit"}
+    %div
       %textarea{rows:"50",cols : "100"}
         = gist
