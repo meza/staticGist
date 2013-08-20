@@ -1,6 +1,8 @@
 staticGist
 ==========
 
+http://staticgist.herokuapp.com
+
 A little app that makes gists static embeddable
 
 My first node app, so the code is an ugly spike. It might be cleaned up if I end up using this.
