@@ -4,5 +4,4 @@ deploy:
   api_key:
     secure: qVByAUj4E3r256oO0NDWgndhSnWdYLJoOhRfq4WiSNw3N1KBX3eosGZiOHaF+2NPG7zDGAAHZ1iKlJqlzP229cAtAl3i2dU0Qfa4Rletytl0nhMpKrYrqdM+sAwLJaf4Y9osdkEhaDfAu2ErwDNPtESz3zSvykCvW55gGEvNasU=
   app: staticgist
-  on:
-    repo: meza/staticGist
+  on: master
